@@ -75,14 +75,10 @@ this is how a 3 bit Flash ADC works
 # Tools Used:
 
 ## eSim:
- The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html)design environment is a modern solution for
- full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation
- management and analysis, and custom layout editing features. This tool is used to design the circuit on a transistor level.
-
-eSim is a CAD tool that helps electronic system designers to design, test and analyse their circuits. But the important feature of this tool is that it is open source and hence
-the user can modify the source as per his/her need. The software provides a generic, modular and extensible platform for experiment with electronic circuits. This software runs
-on all Ubuntu Linux distributions and some flavours of Windows. It uses Python, KiCad and Ngspice.
-    The objective behind the development of eSim is to provide an open source EDA solution for electronics and electrical engineers. The software should be capable of performing
+[eSim](https://esim.fossee.in/home) is a CAD tool that helps electronic system designers to design, test and analyse their circuits. But the important feature of this tool is
+that it is open source and hence the user can modify the source as per his/her need. The software provides a generic, modular and extensible platform for experiment with
+electronic circuits. This software runs on all Ubuntu Linux distributions and some flavours of Windows. It uses Python, KiCad and Ngspice.
+  The objective behind the development of eSim is to provide an open source EDA solution for electronics and electrical engineers. The software should be capable of performing
 schematic creation, PCB design and circuit simulation (analog, digital and mixed signal). It should provide facilities to create new models and components. The architecture of
 eSim has been designed by keeping these objectives in mind.
 
