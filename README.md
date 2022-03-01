@@ -88,9 +88,11 @@ eSim has been designed by keeping these objectives in mind.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
-  Fig.3: Synopsys Custom Compiler
+  <img src="https://user-images.githubusercontent.com/90523478/156241968-207d738d-9245-4e82-b101-2c957cfb3b17.png"></br>
+  Fig.3: eSim open source EDA tool
 </p>
+
+
 
 </p>
 <p align="center">
