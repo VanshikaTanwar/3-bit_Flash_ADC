@@ -70,3 +70,37 @@ this is how a 3 bit Flash ADC works
   <img src="https://user-images.githubusercontent.com/90523478/156240611-b70a3973-1b8c-40ff-a960-e4428380ad88.jpg"></br>
    fig.2: 3-bit_Flash_ADC REFERENCE WAVEFORM 
 </p>
+
+
+# Tools Used:
+
+## eSim:
+ The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html)design environment is a modern solution for
+ full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation
+ management and analysis, and custom layout editing features. This tool is used to design the circuit on a transistor level.
+
+eSim is a CAD tool that helps electronic system designers to design, test and analyse their circuits. But the important feature of this tool is that it is open source and hence
+the user can modify the source as per his/her need. The software provides a generic, modular and extensible platform for experiment with electronic circuits. This software runs
+on all Ubuntu Linux distributions and some flavours of Windows. It uses Python, KiCad and Ngspice.
+    The objective behind the development of eSim is to provide an open source EDA solution for electronics and electrical engineers. The software should be capable of performing
+schematic creation, PCB design and circuit simulation (analog, digital and mixed signal). It should provide facilities to create new models and components. The architecture of
+eSim has been designed by keeping these objectives in mind.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
+  Fig.3: Synopsys Custom Compiler
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
+  Fig.4: Custom compilier
+</p>
+
+<b>• Synopsys PrimeWave:</b></br>
+&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory
+designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+
+<b>• Synopsys 28nm PDK:</b></br>
+&emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
