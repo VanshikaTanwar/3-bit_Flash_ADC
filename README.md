@@ -41,7 +41,7 @@ resistors are connected in series,
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156239808-f3ac8304-9bab-47c9-b006-ba6aec04f277.jpg"></br>
-   fig.1 3-bit_Flash_ADC Block diagram 
+   fig.1: 3-bit_Flash_ADC REFERENCE CIRCUIT 
 </p>
 
 
@@ -64,3 +64,9 @@ Now, all the outputs of the comparator becomes inputs of the encoder it means th
 the digital output of input when two or more than two inputs are high at the same time, it produces the binary code of the input which has Highest Priority. For example suppose
 3 input lines of the encoder are high at the same time , then priority will be given to the third input and hence the corresponding binary code output will be generated. So,
 this is how a 3 bit Flash ADC works
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156240611-b70a3973-1b8c-40ff-a960-e4428380ad88.jpg"></br>
+   fig.2: 3-bit_Flash_ADC REFERENCE WAVEFORM 
+</p>
