@@ -38,6 +38,14 @@ resistors are connected in series,
                                         →Vout=R2xVin/(R1+R2)
 
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156239808-f3ac8304-9bab-47c9-b006-ba6aec04f277.jpg"></br>
+   Four-Quadrant Analog Multiplier in 28nm Technology 
+</p>
+
+
+
 Here, the comparators used is analog in nature which is made up of opamp and is used to either compare two analog voltages or input voltage with reference voltage (say Vref).
 The analog input which is need to be converted is connected to the non-inverting terminal (positive end) of the comparator and voltage reference is connected to the inverting
 terminal(negative end) of the comparator.
@@ -51,3 +59,8 @@ If
 
                                            V+<V-, Vout=0
 
+
+Now, all the outputs of the comparator becomes inputs of the encoder it means that the input of the priority encoder depends on the output of comparator and the Encoder gives
+the digital output of input when two or more than two inputs are high at the same time, it produces the binary code of the input which has Highest Priority. For example suppose
+3 input lines of the encoder are high at the same time , then priority will be given to the third input and hence the corresponding binary code output will be generated. So,
+this is how a 3 bit Flash ADC works
