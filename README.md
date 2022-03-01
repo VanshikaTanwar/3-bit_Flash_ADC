@@ -37,3 +37,12 @@ resistors are connected in series,
 
                                         →Vout=R2xVin/(R1+R2)
 
+
+Here, the comparators used is analog in nature which is made up of opamp and is used to either compare two analog voltages or input voltage with reference voltage (say Vref).
+The analog input which is need to be converted is connected to the non-inverting terminal (positive end) of the comparator and voltage reference is connected to the inverting
+terminal(negative end) of the comparator.
+
+                                If           V+>V-,Vout=1
+                                
+                                
+                                
