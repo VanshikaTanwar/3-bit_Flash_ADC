@@ -88,17 +88,11 @@ eSim has been designed by keeping these objectives in mind.
   Fig.3: eSim open source EDA tool
 </p>
 
+<b>• KiCad to Ngspice converter:</b></br>
+&emsp;Analysis parameters, and the source details are provided through this module. It also allows us to add and edit the device models and subcircuits, included in the circuit
+schematic. Finally, this module facilitates the conversion of KiCad netlist to Ngspice compatible ones.
 
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
-  Fig.4: Custom compilier
-</p>
-
-<b>• Synopsys PrimeWave:</b></br>
-&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory
-designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
-
-<b>• Synopsys 28nm PDK:</b></br>
-&emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+<b>• Ngspice:</b></br>
+&emsp;Ngspice is a general purpose circuit simulation program for nonlinear dc, nonlinear transient, and linear ac analysis. Circuits may contain resistors, capacitors,
+inductors, mutual inductors, independent voltage and current sources, four types of dependent sources, lossless and lossy transmission lines (two separate implementations),
+switches, uniform distributed RC lines, and the five most common semiconductor devices: diodes, BJTs, JFETs, MESFETs, and MOSFET.
