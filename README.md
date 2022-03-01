@@ -42,7 +42,8 @@ Here, the comparators used is analog in nature which is made up of opamp and is 
 The analog input which is need to be converted is connected to the non-inverting terminal (positive end) of the comparator and voltage reference is connected to the inverting
 terminal(negative end) of the comparator.
 
-                                If           V+>V-,Vout=1
+If                                           V+>V-,Vout=1
                                 
-                                
-                                
+                                                and
+If                                           V+<V-, Vout=0
+
