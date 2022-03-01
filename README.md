@@ -41,7 +41,7 @@ resistors are connected in series,
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156239808-f3ac8304-9bab-47c9-b006-ba6aec04f277.jpg"></br>
-   Four-Quadrant Analog Multiplier in 28nm Technology 
+   fig.1 3-bit_Flash_ADC Block diagram 
 </p>
 
 
