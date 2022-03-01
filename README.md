@@ -45,9 +45,7 @@ terminal(negative end) of the comparator.
 If                                          
 
                                            V+>V-, Vout=1
-                                
-                                               
-
+                                                                              
                                                and
 If                                          
 
