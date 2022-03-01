@@ -35,5 +35,5 @@ distributed among each resistor accordingly by using the voltage divider rule. T
 resistors are connected in series,
 
 
-                                                             →Vout=R2xVin/(R1+R2)
+                                        →Vout=R2xVin/(R1+R2)
 
