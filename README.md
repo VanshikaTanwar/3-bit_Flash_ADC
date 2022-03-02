@@ -28,7 +28,15 @@ block is used. So, It is a type of mixed integrated signal in which the data fro
 A flash ADC is the Analog to Digital Converter and it is also known as the fastest of all types of ADC but at the same time, it also requires complex circuitry. It is thus often
 used for high-speed applications and it is also known as Parallel comparator type ADC. It consists of Comparators, the ladder of a resistor network and the priority encoder. A
 general Flash ADC needs 2^N-1 Comparators for “N” no. of bits in which there are 2^N resistors are required and (2^N xN) Priority Encoder are required which increases its power
-consumption as no. of bits are increasing respectively. Each comparator comprises a reference voltage that is 1 LSB higher than that of the one given below it in the chain. The
+consumption as no. of bits are increasing respectively. 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156442691-9ad974a8-9d20-41c4-98d1-99aefa9996a5.png"></br>
+   fig.2: Comparator 
+</p>
+
+Each comparator comprises a reference voltage that is 1 LSB higher than that of the one given below it in the chain. The
 comparator is sometimes called a thermometer code because for a given input, all the comparators below a particular point will have their input voltage higher than their reference
 voltage and hence there, is “1” Logic output comes and vice-versa. Therefore, it behaves as analogous to a mercury thermometer. It is used in satellite communication, radar
 processing, etc.
@@ -47,7 +55,7 @@ resistors are connected in series,
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156239808-f3ac8304-9bab-47c9-b006-ba6aec04f277.jpg"></br>
-   fig.1: 3-bit_Flash_ADC REFERENCE CIRCUIT 
+   fig.3: 3-bit_Flash_ADC REFERENCE CIRCUIT 
 </p>
 
 
@@ -74,7 +82,7 @@ this is how a 3 bit Flash ADC works
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156240611-b70a3973-1b8c-40ff-a960-e4428380ad88.jpg"></br>
-   fig.2: 3-bit_Flash_ADC REFERENCE WAVEFORM 
+   fig.4: 3-bit_Flash_ADC REFERENCE WAVEFORM 
 </p>
 
 
@@ -91,7 +99,7 @@ eSim has been designed by keeping these objectives in mind.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156241968-207d738d-9245-4e82-b101-2c957cfb3b17.png"></br>
-  Fig.3: eSim open source EDA tool
+  Fig.5: eSim open source EDA tool
 </p>
 
 <b>• KiCad to Ngspice converter:</b></br>
@@ -111,7 +119,7 @@ capabilities are often available for open-source development here first--*before
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156244458-943e8799-d7b3-4cdf-8906-2ff8dda606f7.png"></br>
-  Fig.4: Makerchip
+  Fig.6: Makerchip
 </p>
 
 <b>• Verilog:</b></br>
