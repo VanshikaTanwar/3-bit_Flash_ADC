@@ -19,6 +19,12 @@ that machine used digital signals and most of the machines used nowadays are wor
 data we use Analog to Digital Converter. So, this becomes a part of our life that wherever analog signal is converting into digital signal their Analog to digital converter
 block is used. So, It is a type of mixed integrated signal in which the data from analog signal is converted into the digital signal.
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156439134-85ae9fe2-db2f-42bd-97f3-301ce3998628.png"></br>
+   fig.1: Priority Encoder(8*3) 
+</p>
+
 A flash ADC is the Analog to Digital Converter and it is also known as the fastest of all types of ADC but at the same time, it also requires complex circuitry. It is thus often
 used for high-speed applications and it is also known as Parallel comparator type ADC. It consists of Comparators, the ladder of a resistor network and the priority encoder. A
 general Flash ADC needs 2^N-1 Comparators for “N” no. of bits in which there are 2^N resistors are required and (2^N xN) Priority Encoder are required which increases its power
