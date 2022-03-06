@@ -234,4 +234,4 @@ endmodule
 
 # Netlist of the Circuit:
 
-Refer to the netlist of the circuit here: <a href='Netlist'>Netlist</a>
+Refer to the netlist of the circuit here: <a href='Netlist_3-bit_Flash_ADC'>Netlist</a>
