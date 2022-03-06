@@ -206,7 +206,7 @@ endmodule
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156940114-74a27b3f-9802-4cc9-9d49-2e7b6b40b521.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/156943275-70b22acc-24b5-4b09-9568-c3ef99240fdf.jpg"></br>
   Fig.6: Comparator Circuit using OPAMP
 </p>
 
