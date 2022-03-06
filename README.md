@@ -194,7 +194,7 @@ endmodule
   Fig.6: 7
 </p>
 
-### Priority encoder:
+### Priority encoder Schematic:
 
 </p>
 <p align="center">
