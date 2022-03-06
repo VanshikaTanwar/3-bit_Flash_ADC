@@ -128,6 +128,8 @@ for verification through simulation, for timing analysis, for test analysis (tes
 
 # Pre-Layout Schematics and Simulations:
 
+## Schematics:
+
 ### Verilog
 ```
 
@@ -190,4 +192,24 @@ endmodule
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917575-4e6c9761-b232-4582-965b-6b00b31b22cf.png"></br>
   Fig.6: 7
+</p>
+
+
+### 3-bit_Flash_ADC Schematic:
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156939856-df6aad49-93ce-4303-8432-f4ea84bdf8de.jpg"></br>
+  Fig.6: Mix Signal circuit
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156939883-0c6dee17-c153-4d3a-8bf8-6d26d1be4892.jpg"></br>
+  Fig.6: Analog Block circuit
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156939897-f820d72a-17f5-41dd-8d69-3815874efd2b.jpg"></br>
+  Fig.6: Digital Block circuit
 </p>
