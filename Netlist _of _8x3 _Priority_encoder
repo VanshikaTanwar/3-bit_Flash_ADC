@@ -1,0 +1,47 @@
+* c:\users\vansh\esim-workspace\priority_encoder\priority_encoder.cir
+
+* u13  i0 i1 i2 i3 i4 i5 i6 i7 net-u12-pad1 net-u12-pad2 net-u12-pad3 net-u12-pad4 net-u12-pad5 net-u12-pad6 net-u12-pad7 net-u12-pad8 adc_bridge_8
+v1  i0 gnd pulse(0 5 0.1m 0.1m 0.1m 1 2)
+v2  i1 gnd pulse(0 10 0.1m 0.1m 0.1m 4 8)
+v3  i2 gnd pulse(0 5 0.1m 0.1m 0.1m 20 40)
+v4  i3 gnd pulse(0 10 0.1m 0.1m 0.1m 3 4)
+v5  i4 gnd pulse(0 5 0.1m 0.1m 0.1m 50 65)
+v6  i5 gnd pulse(0 10 0.1m 0.1m 0.1m 10 20)
+v7  i6 gnd pulse(0 5 0.1m 0.1m 0.1m 5 10)
+v8  i7 gnd pulse(0 10 0.1m 0.1m 0.1m 1 4)
+* u1  i0 plot_v1
+* u2  i1 plot_v1
+* u3  i2 plot_v1
+* u4  i3 plot_v1
+* u5  i4 plot_v1
+* u8  i7 plot_v1
+* u7  i6 plot_v1
+* u6  i5 plot_v1
+* u9  o0 plot_v1
+* u10  o1 plot_v1
+* u11  o2 plot_v1
+r3  net-r3-pad1 o2 1k
+r2  net-r2-pad1 o1 1k
+r1  net-r1-pad1 o0 1k
+* u14  net-u12-pad9 net-u12-pad10 net-u12-pad11 net-r1-pad1 net-r2-pad1 net-r3-pad1 dac_bridge_3
+* u12  net-u12-pad1 net-u12-pad2 net-u12-pad3 net-u12-pad4 net-u12-pad5 net-u12-pad6 net-u12-pad7 net-u12-pad8 net-u12-pad9 net-u12-pad10 net-u12-pad11 priority_encode_vanshika
+a1 [i0 i1 i2 i3 i4 i5 i6 i7 ] [net-u12-pad1 net-u12-pad2 net-u12-pad3 net-u12-pad4 net-u12-pad5 net-u12-pad6 net-u12-pad7 net-u12-pad8 ] u13
+a2 [net-u12-pad9 net-u12-pad10 net-u12-pad11 ] [net-r1-pad1 net-r2-pad1 net-r3-pad1 ] u14
+a3 [net-u12-pad1 net-u12-pad2 net-u12-pad3 net-u12-pad4 net-u12-pad5 net-u12-pad6 net-u12-pad7 net-u12-pad8 ] [net-u12-pad9 net-u12-pad10 net-u12-pad11 ] u12
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u13 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_3, NgSpice Name: dac_bridge
+.model u14 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             priority_encode_vanshika, NgSpice Name: priority_encode_vanshika
+.model u12 priority_encode_vanshika(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+.tran 20e-00 200e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(i0)+5 v(i1)+10 v(i2)+15 v(i3)+20 v(i4)+25 v(i5)+30 v(i6)+35 v(i7)+40
+plot v(o0)+5 v(o1)+10 v(o2)+15
+.endc
+.end
