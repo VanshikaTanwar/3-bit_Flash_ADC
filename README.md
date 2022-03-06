@@ -21,7 +21,7 @@ block is used. So, It is a type of mixed integrated signal in which the data fro
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156440073-ddb226b4-c37f-46f2-a8dc-95f3298b7da1.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/156916897-b209a483-e1c0-4646-a8fe-438960277541.png"></br>
    fig.1: Priority Encoder(8*3) 
 </p>
 
