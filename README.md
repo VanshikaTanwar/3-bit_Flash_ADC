@@ -221,3 +221,11 @@ endmodule
   <img src="https://user-images.githubusercontent.com/90523478/156939897-f820d72a-17f5-41dd-8d69-3815874efd2b.jpg"></br>
   Fig.6: Digital Block circuit
 </p>
+
+## Simulations:
+### Priority encoder Waveform
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156940261-f4438a17-bed3-48a0-8c82-1a7253084a8d.jpg"></br>
+  Fig.6:  8x3 Priority encoder Waveform
+</p>
