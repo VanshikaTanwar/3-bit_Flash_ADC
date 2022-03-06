@@ -32,7 +32,7 @@ consumption as no. of bits are increasing respectively.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156442691-9ad974a8-9d20-41c4-98d1-99aefa9996a5.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/156917104-8a1af49b-8670-4bcd-ae05-8613d066880b.png"></br>
    fig.2: Comparator 
 </p>
 
