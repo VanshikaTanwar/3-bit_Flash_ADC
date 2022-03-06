@@ -253,3 +253,22 @@ endmodule
 # Netlist of the Circuit:
 
 Refer to the netlist of the circuit here: <a href='Netlist_3-bit_Flash_ADC'>Netlist</a>
+
+# References:
+[1]. https://research.ijcaonline.org/volume61/number11/pxc3884802.pdf 
+
+[2]. https://www.researchgate.net/publication/329326679_A_3-Bit_10-MSps_Low_Power_CMOS_Flash_ADC 
+
+[3]. https://www.researchgate.net/publication/318286256_Design_Implementation_of_3-Bit_High_Speed_Flash_ADC_for_Wireless_LAN_Applications
+
+
+# Acknowledgements:
+
+- [eSim](https://esim.fossee.in/home)
+- [Indian Institute Of Technology (IIT) Bombay](https://www.iitbombay.org/)
+- [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+- [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
+- [SUMANTO KAR](https://github.com/Eyantra698Sumanto)
+
+# Author:
+• Vanshika Tanwar, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
