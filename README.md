@@ -280,7 +280,8 @@ endmodule
 
 # Netlist of the Circuit:
 
-Refer to the netlist of the circuit here: <a href='Netlist_3-bit_Flash_ADC'>Netlist</a>
+Refer to the netlist of the circuit here: <a href='Netlist_of_comparator'>Netlist_of_comparator</a>
+Refer to the netlist of the circuit here: <a href='Netlist_3-bit_Flash_ADC'>Netlist_3-bit_Flash_ADC</a>
 
 # References:
 [1]. https://research.ijcaonline.org/volume61/number11/pxc3884802.pdf 
