@@ -155,43 +155,43 @@ endmodule
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917375-83f425a3-2809-42f8-a685-073cdd42e31e.png"></br>
-  Fig.6: 1
+  Fig.7: 1
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917433-9a8fdd4c-b0ae-4243-bf12-274261e65602.png"></br>
-  Fig.6: 2
+  Fig.8: 2
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917453-e5e917a5-c0ac-4882-b2a0-90c2393965e8.png"></br>
-  Fig.6: 3
+  Fig.9: 3
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917473-351bda5c-756f-4f27-9ae7-7035925245f6.png"></br>
-  Fig.6: 4
+  Fig.10: 4
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917515-69137660-99e0-4f69-8321-3db7c4171b25.png"></br>
-  Fig.6: 5
+  Fig.11: 5
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917565-17e49081-a948-46a2-9d89-90c9d2d795b6.png"></br>
-  Fig.6: 6
+  Fig.12: 6
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917575-4e6c9761-b232-4582-965b-6b00b31b22cf.png"></br>
-  Fig.6: 7
+  Fig.13: 7
 </p>
 
 ### Priority encoder Schematic:
@@ -199,7 +199,7 @@ endmodule
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156940114-74a27b3f-9802-4cc9-9d49-2e7b6b40b521.jpg"></br>
-  Fig.6: 8x3 Priority encoder circuit
+  Fig.14: 8x3 Priority encoder circuit
 </p>
 
 ### Comparator Schematic:
@@ -207,7 +207,7 @@ endmodule
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156943275-70b22acc-24b5-4b09-9568-c3ef99240fdf.jpg"></br>
-  Fig.6: Comparator Circuit using OPAMP
+  Fig.15: Comparator Circuit using OPAMP
 </p>
 
 ### 3-bit_Flash_ADC Schematic:
@@ -215,19 +215,19 @@ endmodule
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939856-df6aad49-93ce-4303-8432-f4ea84bdf8de.jpg"></br>
-  Fig.6: Mix Signal circuit
+  Fig.16: Mix Signal circuit
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939883-0c6dee17-c153-4d3a-8bf8-6d26d1be4892.jpg"></br>
-  Fig.6: Analog Block circuit
+  Fig.17: Analog Block circuit
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939897-f820d72a-17f5-41dd-8d69-3815874efd2b.jpg"></br>
-  Fig.6: Digital Block circuit
+  Fig.18: Digital Block circuit
 </p>
 
 ## Simulations:
@@ -235,7 +235,7 @@ endmodule
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156940261-f4438a17-bed3-48a0-8c82-1a7253084a8d.jpg"></br>
-  Fig.6:  8x3 Priority encoder Waveform
+  Fig.19:  8x3 Priority encoder Waveform
 </p>
 
 ### Comparator Waveform:
@@ -243,19 +243,19 @@ endmodule
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156942327-c64a4311-7682-4e3d-90f5-5bde96852162.jpg"></br>
-  Fig.6:  comparator waveform(1) 
+  Fig.20:  comparator waveform(1) 
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156942366-20883786-2e53-4563-9726-5dc3e7677f62.jpg"></br>
-  Fig.6: comparator waveform(2)
+  Fig.21: comparator waveform(2)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156942674-3a8115e7-1e29-4190-a0dd-a50d8a3d2ff8.jpg"></br>
-  Fig.6: comparator waveform(3)
+  Fig.22: comparator waveform(3)
 </p>
 
 ### 3-bit_Flash_ADC Waveform:
@@ -263,19 +263,19 @@ endmodule
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156941802-06fe270d-2014-45a2-a2ff-b7e37d484d34.jpg"></br>
-  Fig.6: 3_bit_flash_adc_waveform_1
+  Fig.23: 3_bit_flash_adc_waveform_1
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156941822-f006ae9b-c090-4442-930d-5f940b8a78b0.jpg"></br>
-  Fig.6: 3_bit_flash_adc_waveform_2
+  Fig.24: 3_bit_flash_adc_waveform_2
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156941838-886c6480-b1ea-437b-abc8-fcf83c98a25f.jpg"></br>
-  Fig.6: 3_bit_flash_adc_waveform_3
+  Fig.25: 3_bit_flash_adc_waveform_3
 </p>
 
 # Netlist of the Circuit:
