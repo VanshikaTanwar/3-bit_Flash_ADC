@@ -252,6 +252,12 @@ endmodule
   Fig.6: comparator waveform(2)
 </p>
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156942674-3a8115e7-1e29-4190-a0dd-a50d8a3d2ff8.jpg"></br>
+  Fig.6: comparator waveform(3)
+</p>
+
 ### 3-bit_Flash_ADC Waveform:
 
 </p>
