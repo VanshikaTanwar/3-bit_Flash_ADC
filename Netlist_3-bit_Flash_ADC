@@ -60,3 +60,4 @@ plot v(out0)+6 v(out1)+12 v(out2)+18
 plot v(vin)+6 v(vref)
 .endc
 .end
+
