@@ -202,6 +202,14 @@ endmodule
   Fig.6: 8x3 Priority encoder circuit
 </p>
 
+### Comparator Schematic:
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156940114-74a27b3f-9802-4cc9-9d49-2e7b6b40b521.jpg"></br>
+  Fig.6: Comparator Circuit using OPAMP
+</p>
+
 ### 3-bit_Flash_ADC Schematic:
 
 </p>
@@ -223,11 +231,25 @@ endmodule
 </p>
 
 ## Simulations:
-### Priority encoder Waveform
+### Priority encoder Waveform:
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156940261-f4438a17-bed3-48a0-8c82-1a7253084a8d.jpg"></br>
   Fig.6:  8x3 Priority encoder Waveform
+</p>
+
+### Comparator Waveform:
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156942327-c64a4311-7682-4e3d-90f5-5bde96852162.jpg"></br>
+  Fig.6:  comparator waveform(1) 
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156942366-20883786-2e53-4563-9726-5dc3e7677f62.jpg"></br>
+  Fig.6: comparator waveform(2)
 </p>
 
 ### 3-bit_Flash_ADC Waveform:
