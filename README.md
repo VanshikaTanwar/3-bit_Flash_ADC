@@ -229,3 +229,9 @@ endmodule
   <img src="https://user-images.githubusercontent.com/90523478/156940261-f4438a17-bed3-48a0-8c82-1a7253084a8d.jpg"></br>
   Fig.6:  8x3 Priority encoder Waveform
 </p>
+
+
+
+# Netlist of the Circuit:
+
+Refer to the netlist of the circuit here: <a href='Netlist'>Netlist</a>
