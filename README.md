@@ -230,7 +230,25 @@ endmodule
   Fig.6:  8x3 Priority encoder Waveform
 </p>
 
+### 3-bit_Flash_ADC Waveform:
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156941802-06fe270d-2014-45a2-a2ff-b7e37d484d34.jpg"></br>
+  Fig.6: 3_bit_flash_adc_waveform_1
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156941822-f006ae9b-c090-4442-930d-5f940b8a78b0.jpg"></br>
+  Fig.6: 3_bit_flash_adc_waveform_2
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156941838-886c6480-b1ea-437b-abc8-fcf83c98a25f.jpg"></br>
+  Fig.6: 3_bit_flash_adc_waveform_3
+</p>
 
 # Netlist of the Circuit:
 
