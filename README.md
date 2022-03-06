@@ -194,8 +194,16 @@ endmodule
   Fig.6: 7
 </p>
 
+### Priority encoder:
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156940114-74a27b3f-9802-4cc9-9d49-2e7b6b40b521.jpg"></br>
+  Fig.6: 8x3 Priority encoder circuit
+</p>
 
 ### 3-bit_Flash_ADC Schematic:
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939856-df6aad49-93ce-4303-8432-f4ea84bdf8de.jpg"></br>
