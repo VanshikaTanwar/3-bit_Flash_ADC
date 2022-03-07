@@ -28,7 +28,7 @@ block is used. So, It is a type of mixed integrated signal in which the data fro
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/157048177-26eb5f98-26c8-4312-a92e-a4ba75f7444d.png"></br>
-   fig.1: Priority Encoder(8x3) 
+   fig.1: (8x3) Priority Encoder Truth Table
 </p>
 
 A flash ADC is the Analog to Digital Converter and it is also known as the fastest of all types of ADC but at the same time, it also requires complex circuitry. It is thus often
