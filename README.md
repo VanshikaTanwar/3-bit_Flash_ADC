@@ -265,6 +265,7 @@ As for 3-bit flash ADC, a Total of 8 comparators are connected with each other u
 
 #### Digital Block:
 ##### Priority Encoder:
+The working of priority encoder block is explained above
 
 </p>
 <p align="center">
@@ -273,6 +274,8 @@ As for 3-bit flash ADC, a Total of 8 comparators are connected with each other u
 </p>
 
 #### Mixed Signal:
+This is the Mixed Signal Circuit of 3 bit Flash Analog-to-Digital Converter which consist of combination of 2 blocks one is Analog Block And other is Digital Block that is
+Analog Block +Digital Block =Mixed signal circuit
 
 </p>
 <p align="center">
