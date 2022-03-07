@@ -200,7 +200,7 @@ endmodule
   Fig.13: 7
 </p>
 
-### Priority encoder Schematic:
+### Priority Encoder Schematic:
 
 An encoder is a combinational digital circuit which performs the inverse operation of a decoder. An Encoder circuit consists of 2^n input lines and gives n output lines. So, a
 priority encoder is the encoder circuit that includes the priority function.
@@ -239,6 +239,8 @@ If V(non-inv)<V(ref) ----->Vout=0
 ### 3-bit_Flash_ADC Schematic:
 
 #### Analog Block:
+##### Resistor Voltage Divider Network:
+
 A resistor voltage divider circuit is used in which there is a total of 8 resistors each of 1k are connected in series with other. And voltage divider rule is used for the
 distribution of input voltage among all resistors. 
 For example:- Suppose if 2 resistors are connected in series that is R1 and R2 and the input voltage is Vin, according to the voltage divider rule the Vout will be equal to 
@@ -251,6 +253,7 @@ Vout=R2 x Vin/(R1+R2)
   Fig.16: Resistor Voltage Divider circuit
 </p>
 
+##### Comparator:
 
 As for 3-bit flash ADC, a Total of 8 comparators are connected with each other using the same concept of comparator as mentioned above in a single comparator circuit.
 
@@ -261,6 +264,7 @@ As for 3-bit flash ADC, a Total of 8 comparators are connected with each other u
 </p>
 
 #### Digital Block:
+##### Priority Encoder:
 
 </p>
 <p align="center">
