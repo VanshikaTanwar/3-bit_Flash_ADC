@@ -239,6 +239,18 @@ If V(non-inv)<V(ref) ----->Vout=0
 ### 3-bit_Flash_ADC Schematic:
 
 #### Analog Block:
+A resistor voltage divider circuit is used in which there is a total of 8 resistors each of 1k are connected in series with other. And voltage divider rule is used for the
+distribution of input voltage among all resistors. 
+For example:- Suppose if 2 resistors are connected in series that is R1 and R2 and the input voltage is Vin, according to the voltage divider rule the Vout will be equal to 
+
+Vout=R2 x Vin/(R1+R2)
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/157055091-f44bfe1d-0c5e-4217-80fd-c251b0cd15ab.png"></br>
+  Fig.16: Resistor Voltage Divider circuit
+</p>
+
 
 As for 3-bit flash ADC, a Total of 8 comparators are connected with each other using the same concept of comparator as mentioned above in a single comparator circuit.
 
