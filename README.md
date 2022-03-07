@@ -137,10 +137,11 @@ eSim has been designed by keeping these objectives in mind.
 &emsp;Analysis parameters, and the source details are provided through this module. It also allows us to add and edit the device models and subcircuits, included in the circuit
 schematic. Finally, this module facilitates the conversion of KiCad netlist to Ngspice compatible ones.
 
-<b>• Ngspice:</b></br>
-&emsp;Ngspice is a general purpose circuit simulation program for nonlinear dc, nonlinear transient, and linear ac analysis. Circuits may contain resistors, capacitors,
-inductors, mutual inductors, independent voltage and current sources, four types of dependent sources, lossless and lossy transmission lines (two separate implementations),
-switches, uniform distributed RC lines, and the five most common semiconductor devices: diodes, BJTs, JFETs, MESFETs, and MOSFET.
+[Ngspice](http://ngspice.sourceforge.net/docs.html) is a general purpose circuit simulation program for nonlinear dc, nonlinear transient, and linear ac analysis. Circuits may
+contain resistors, capacitors, inductors, mutual inductors, independent voltage and current sources, four types of dependent sources, lossless and lossy transmission lines (two
+separate implementations), switches, uniform distributed RC lines, and the five most common semiconductor devices: diodes, BJTs, JFETs, MESFETs, and MOSFET.
+
+Verilator(https://www.veripool.org/verilator/): It is a tool which converts Verilog code to C++ objects.
 
 ## Makerchip:
 [Makerchip](https://www.makerchip.com/) Circuit design has been a game for big industry for far too long! Makerchip provides free and instant access to the latest tools from
