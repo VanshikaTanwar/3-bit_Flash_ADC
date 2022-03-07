@@ -196,9 +196,12 @@ endmodule
 
 ### Priority encoder Schematic:
 
+An encoder is a combinational digital circuit which performs the inverse operation of a decoder. An Encoder circuit consists of 2^n input lines and gives n output lines. So, a priority encoder is the encoder circuit that includes the priority function.
+The priority encoder performs its operation as if two or more inputs are equal to one(1) or high at the same time, then the input which has the highest priority will take precedence. We decide priority according to weight or the input that has the highest priority will take precedence. For example, if there are 4 inputs E3, E2, E1, E0 has the value 1010 then see this that at the E3 position and E1 position has the 1 at the same time then E3 has the highest priority because it has the highest weight according to the base 8421.
+
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156940114-74a27b3f-9802-4cc9-9d49-2e7b6b40b521.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/157047244-aeea0b25-455c-4203-a47d-f16b92225e69.jpg"></br>
   Fig.14: 8x3 Priority encoder circuit
 </p>
 
