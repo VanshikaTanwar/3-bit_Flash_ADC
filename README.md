@@ -218,7 +218,17 @@ In this mixed-signal circuit, we have used an 8x3 priority encoder which contain
 </p>
 
 ### Comparator Schematic:
+ 
+ The comparator which is used in this mixed-signal circuit is the Non-Inverting comparator. We used opamp as a comparator. The comparator is used to compare the input signal
+ with respect to the reference voltage.
+ 
+As here we have used here the non-inverting comparator so, the input signal that is sine signal is applied at the positive terminal or non-inverting terminal of the opamp while
+the reference voltage is applied at the negative terminal or inverting terminal of the opamp. And for offset null, a resistor of 1k has been connected between pin 1 and 5 of the
+opamp. 
 
+If V(non-inv)> V(ref) ----> Vout=1
+If V(non-inv)<V(ref) ----->Vout=0
+ 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156943275-70b22acc-24b5-4b09-9568-c3ef99240fdf.jpg"></br>
