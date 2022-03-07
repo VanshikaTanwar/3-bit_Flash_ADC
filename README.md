@@ -227,7 +227,7 @@ endmodule
   Fig.17: Digital Block circuit
 </p>
 
-#### Mixrd Signal:
+#### Mixed Signal:
 
 </p>
 <p align="center">
