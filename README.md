@@ -28,7 +28,7 @@ block is used. So, It is a type of mixed integrated signal in which the data fro
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/157048177-26eb5f98-26c8-4312-a92e-a4ba75f7444d.png"></br>
-   fig.1: (8x3) Priority Encoder Truth Table
+   fig.2: (8x3) Priority Encoder Truth Table
 </p>
 
 A flash ADC is the Analog to Digital Converter and it is also known as the fastest of all types of ADC but at the same time, it also requires complex circuitry. It is thus often
@@ -39,7 +39,7 @@ consumption as no. of bits are increasing respectively.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917104-8a1af49b-8670-4bcd-ae05-8613d066880b.png"></br>
-   fig.2: Comparator 
+   fig.3: Comparator 
 </p>
 
 Each comparator comprises a reference voltage that is 1 LSB higher than that of the one given below it in the chain. The
@@ -61,7 +61,7 @@ resistors are connected in series,
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156239808-f3ac8304-9bab-47c9-b006-ba6aec04f277.jpg"></br>
-   fig.3: 3-bit_Flash_ADC REFERENCE CIRCUIT 
+   fig.4: 3-bit_Flash_ADC REFERENCE CIRCUIT 
 </p>
 
 
@@ -88,7 +88,7 @@ this is how a 3 bit Flash ADC works
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156240611-b70a3973-1b8c-40ff-a960-e4428380ad88.jpg"></br>
-   fig.4: 3-bit_Flash_ADC REFERENCE WAVEFORM 
+   fig.5: 3-bit_Flash_ADC REFERENCE WAVEFORM 
 </p>
 
 
@@ -105,7 +105,7 @@ eSim has been designed by keeping these objectives in mind.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156241968-207d738d-9245-4e82-b101-2c957cfb3b17.png"></br>
-  Fig.5: eSim open source EDA tool
+  Fig.6: eSim open source EDA tool
 </p>
 
 <b>• KiCad to Ngspice converter:</b></br>
@@ -125,7 +125,7 @@ capabilities are often available for open-source development here first--*before
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156244458-943e8799-d7b3-4cdf-8906-2ff8dda606f7.png"></br>
-  Fig.6: Makerchip
+  Fig.7: Makerchip
 </p>
 
 <b>• Verilog:</b></br>
@@ -161,43 +161,43 @@ endmodule
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917375-83f425a3-2809-42f8-a685-073cdd42e31e.png"></br>
-  Fig.7: 1
+  Fig.8.1: 
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917433-9a8fdd4c-b0ae-4243-bf12-274261e65602.png"></br>
-  Fig.8: 2
+  Fig.8.2: 
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917453-e5e917a5-c0ac-4882-b2a0-90c2393965e8.png"></br>
-  Fig.9: 3
+  Fig.8.3:
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917473-351bda5c-756f-4f27-9ae7-7035925245f6.png"></br>
-  Fig.10: 4
+  Fig.8.4: 
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917515-69137660-99e0-4f69-8321-3db7c4171b25.png"></br>
-  Fig.11: 5
+  Fig.8.5: 
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917565-17e49081-a948-46a2-9d89-90c9d2d795b6.png"></br>
-  Fig.12: 6
+  Fig.8.6: 
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156917575-4e6c9761-b232-4582-965b-6b00b31b22cf.png"></br>
-  Fig.13: 7
+  Fig.8.7: 
 </p>
 
 ### Priority Encoder Schematic:
@@ -214,7 +214,7 @@ In this mixed-signal circuit, we have used an 8x3 priority encoder which contain
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/157047244-aeea0b25-455c-4203-a47d-f16b92225e69.jpg"></br>
-  Fig.14: 8x3 Priority encoder circuit
+  Fig.9: 8x3 Priority encoder circuit
 </p>
 
 ### Comparator Schematic:
@@ -233,7 +233,7 @@ If V(non-inv)<V(ref) ----->Vout=0
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156943275-70b22acc-24b5-4b09-9568-c3ef99240fdf.jpg"></br>
-  Fig.15: Comparator Circuit using OPAMP
+  Fig.10: Comparator Circuit using OPAMP
 </p>
 
 ### 3-bit_Flash_ADC Schematic:
@@ -250,7 +250,7 @@ Vout=R2 x Vin/(R1+R2)
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/157055091-f44bfe1d-0c5e-4217-80fd-c251b0cd15ab.png"></br>
-  Fig.16: Resistor Voltage Divider circuit
+  Fig.11: Resistor Voltage Divider circuit
 </p>
 
 ##### Comparator:
@@ -260,7 +260,7 @@ As for 3-bit flash ADC, a Total of 8 comparators are connected with each other u
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939883-0c6dee17-c153-4d3a-8bf8-6d26d1be4892.jpg"></br>
-  Fig.16: Analog Block circuit
+  Fig.12: Analog Block circuit
 </p>
 
 #### Digital Block:
@@ -270,7 +270,7 @@ The working of priority encoder block is explained above
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939897-f820d72a-17f5-41dd-8d69-3815874efd2b.jpg"></br>
-  Fig.17: Digital Block circuit
+  Fig.13: Digital Block circuit
 </p>
 
 #### Mixed Signal:
@@ -280,7 +280,7 @@ Analog Block +Digital Block =Mixed signal circuit
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939856-df6aad49-93ce-4303-8432-f4ea84bdf8de.jpg"></br>
-  Fig.18: Mixed Signal circuit
+  Fig.14: Mixed Signal circuit
 </p>
 
 ## Simulations:
@@ -288,7 +288,7 @@ Analog Block +Digital Block =Mixed signal circuit
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156940261-f4438a17-bed3-48a0-8c82-1a7253084a8d.jpg"></br>
-  Fig.19:  8x3 Priority encoder Waveform
+  Fig.15:  8x3 Priority encoder Waveform
 </p>
 
 ### Comparator Waveform:
@@ -296,19 +296,19 @@ Analog Block +Digital Block =Mixed signal circuit
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156942327-c64a4311-7682-4e3d-90f5-5bde96852162.jpg"></br>
-  Fig.20:  comparator waveform(1) 
+  Fig.16.1:  comparator waveform(1) 
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156942366-20883786-2e53-4563-9726-5dc3e7677f62.jpg"></br>
-  Fig.21: comparator waveform(2)
+  Fig.16.2: comparator waveform(2)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156942674-3a8115e7-1e29-4190-a0dd-a50d8a3d2ff8.jpg"></br>
-  Fig.22: comparator waveform(3)
+  Fig.16.3: comparator waveform(3)
 </p>
 
 ### 3-bit_Flash_ADC Waveform:
@@ -316,19 +316,19 @@ Analog Block +Digital Block =Mixed signal circuit
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156941802-06fe270d-2014-45a2-a2ff-b7e37d484d34.jpg"></br>
-  Fig.23: 3_bit_flash_adc_waveform_1
+  Fig.17.1: 3_bit_flash_adc_waveform_1
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156941822-f006ae9b-c090-4442-930d-5f940b8a78b0.jpg"></br>
-  Fig.24: 3_bit_flash_adc_waveform_2
+  Fig.17.2: 3_bit_flash_adc_waveform_2
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156941838-886c6480-b1ea-437b-abc8-fcf83c98a25f.jpg"></br>
-  Fig.25: 3_bit_flash_adc_waveform_3
+  Fig.17.3: 3_bit_flash_adc_waveform_3
 </p>
 
 # Netlist of the Circuit:
