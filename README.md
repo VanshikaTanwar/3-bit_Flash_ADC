@@ -334,7 +334,7 @@ Analog Block +Digital Block =Mixed signal circuit
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156941838-886c6480-b1ea-437b-abc8-fcf83c98a25f.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/157059062-c6e57483-dce2-4269-b3c7-975af8a5c4be.png"></br>
   Fig.17.3: 3_bit_flash_adc_waveform_3
 </p>
 
