@@ -2,6 +2,29 @@
 
 This repository presents the design of 3-bit_Flash_ADC implemented using eSim open source EDA tool.
 
+# Table of Contents
+
+- [Abstract](#Abstract)
+- [Introduction](#Introduction)
+- [3-bit_Flash_ADC](#3-bit-Flash-ADC)
+- [Tools Used](#Tools-Used)
+	- [eSim](#eSim)
+	- [Makerchip](#Makerchip)
+- [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
+	- [Schematics](#Schematics)
+	- [Verilog](#Verilog)
+	- [Priority Encoder Schematicl](#Priority-Encoder-Schematic)
+	- [Comparator Schematic](#Comparator-Schematic)
+	- [3-bit_Flash_ADC Schematic](#3-bit-Flash-ADC-Schematic)
+		- [Analog Block](#Analog-Block)
+- [Simulations](#Simulations)
+	- [Synopsys Primewave](#Synopsys-Primewave)
+	- [Transient Analysis](#Transient-Analysis)
+	- [Waveform](#Waveform)
+- [Conclusion](#Conclusion)
+- [References](#references)
+- [Acknowledgement](#acknowledgement)
+- [Author](#author)
 
 # Abstract:
 Analog to Digital Converter becomes a very important part in Real life it is a type of mixed-signal. THE Flash ADC signal has the fastest signal conversion speed among all of the
