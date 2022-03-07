@@ -1,6 +1,6 @@
 # 3-bit_Flash_ADC
 
-This repository presents the design of 3-bit_Flash_ADC implemented using eSim open source EDA tool in 180nm Technology.
+This repository presents the design of 3-bit_Flash_ADC implemented using eSim open source EDA tool.
 
 
 # Abstract:
@@ -336,6 +336,12 @@ Analog Block +Digital Block =Mixed signal circuit
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/157059062-c6e57483-dce2-4269-b3c7-975af8a5c4be.png"></br>
   Fig.17.3: 3_bit_flash_adc_waveform_3
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/157059424-d54d4449-13a7-49df-9115-16a4e78fb4e8.png"></br>
+  Fig.17.4: 3_bit_flash_adc_waveform_4
 </p>
 
 # Netlist of the Circuit:
