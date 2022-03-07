@@ -25,6 +25,12 @@ block is used. So, It is a type of mixed integrated signal in which the data fro
    fig.1: Priority Encoder(8x3) 
 </p>
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/157048177-26eb5f98-26c8-4312-a92e-a4ba75f7444d.png"></br>
+   fig.1: Priority Encoder(8x3) 
+</p>
+
 A flash ADC is the Analog to Digital Converter and it is also known as the fastest of all types of ADC but at the same time, it also requires complex circuitry. It is thus often
 used for high-speed applications and it is also known as Parallel comparator type ADC. It consists of Comparators, the ladder of a resistor network and the priority encoder. A
 general Flash ADC needs 2^N-1 Comparators for “N” no. of bits in which there are 2^N resistors are required and (2^N xN) Priority Encoder are required which increases its power
@@ -196,8 +202,14 @@ endmodule
 
 ### Priority encoder Schematic:
 
-An encoder is a combinational digital circuit which performs the inverse operation of a decoder. An Encoder circuit consists of 2^n input lines and gives n output lines. So, a priority encoder is the encoder circuit that includes the priority function.
-The priority encoder performs its operation as if two or more inputs are equal to one(1) or high at the same time, then the input which has the highest priority will take precedence. We decide priority according to weight or the input that has the highest priority will take precedence. For example, if there are 4 inputs E3, E2, E1, E0 has the value 1010 then see this that at the E3 position and E1 position has the 1 at the same time then E3 has the highest priority because it has the highest weight according to the base 8421.
+An encoder is a combinational digital circuit which performs the inverse operation of a decoder. An Encoder circuit consists of 2^n input lines and gives n output lines. So, a
+priority encoder is the encoder circuit that includes the priority function.
+The priority encoder performs its operation as if two or more inputs are equal to one(1) or high at the same time, then the input which has the highest priority will take
+precedence. We decide priority according to weight or the input that has the highest priority will take precedence. For example, if there are 4 inputs E3, E2, E1, E0 has the
+value 1010 then see this that at the E3 position and E1 position has the 1 at the same time then E3 has the highest priority because it has the highest weight according to the
+base 8421.
+
+In this mixed-signal circuit, we have used an 8x3 priority encoder which contains 8 input lines and produces 3 output lines.
 
 </p>
 <p align="center">
