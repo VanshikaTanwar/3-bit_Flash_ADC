@@ -387,6 +387,7 @@ Analog Block +Digital Block =Mixed signal circuit
 
 [3]. https://www.researchgate.net/publication/318286256_Design_Implementation_of_3-Bit_High_Speed_Flash_ADC_for_Wireless_LAN_Applications
 
+[4]. https://microcontrollerslab.com/flash-adc-working-3-bit-example-advantages-applications/
 
 # Acknowledgements:
 
