@@ -239,6 +239,9 @@ If V(non-inv)<V(ref) ----->Vout=0
 ### 3-bit_Flash_ADC Schematic:
 
 #### Analog Block:
+
+As for 3-bit flash ADC, a Total of 8 comparators are connected with each other using the same concept of comparator as mentioned above in a single comparator circuit.
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939883-0c6dee17-c153-4d3a-8bf8-6d26d1be4892.jpg"></br>
