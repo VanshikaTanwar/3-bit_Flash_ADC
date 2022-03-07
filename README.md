@@ -212,22 +212,23 @@ endmodule
 
 ### 3-bit_Flash_ADC Schematic:
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156939856-df6aad49-93ce-4303-8432-f4ea84bdf8de.jpg"></br>
-  Fig.16: Mix Signal circuit
-</p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939883-0c6dee17-c153-4d3a-8bf8-6d26d1be4892.jpg"></br>
-  Fig.17: Analog Block circuit
+  Fig.16: Analog Block circuit
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156939897-f820d72a-17f5-41dd-8d69-3815874efd2b.jpg"></br>
-  Fig.18: Digital Block circuit
+  Fig.17: Digital Block circuit
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/156939856-df6aad49-93ce-4303-8432-f4ea84bdf8de.jpg"></br>
+  Fig.18: Mix Signal circuit
 </p>
 
 ## Simulations:
