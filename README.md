@@ -7,6 +7,7 @@ This repository presents the design of 3-bit_Flash_ADC implemented using eSim op
 - [Abstract](#Abstract)
 - [Introduction](#Introduction)
 - [3-bit_Flash_ADC](#3-bit-Flash-ADC)
+	- [REFERENCE WAVEFORM](#REFERENCE-WAVEFORM)
 - [Tools Used](#Tools-Used)
 	- [eSim](#eSim)
 	- [Makerchip](#Makerchip)
@@ -110,6 +111,7 @@ the digital output of input when two or more than two inputs are high at the sam
 3 input lines of the encoder are high at the same time , then priority will be given to the third input and hence the corresponding binary code output will be generated. So,
 this is how a 3 bit Flash ADC works
 
+## REFERENCE WAVEFORM
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/156240611-b70a3973-1b8c-40ff-a960-e4428380ad88.jpg"></br>
