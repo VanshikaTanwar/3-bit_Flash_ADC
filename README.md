@@ -227,6 +227,7 @@ the reference voltage is applied at the negative terminal or inverting terminal 
 opamp. 
 
 If V(non-inv)> V(ref) ----> Vout=1
+
 If V(non-inv)<V(ref) ----->Vout=0
  
 </p>
