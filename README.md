@@ -75,7 +75,7 @@ processing, etc.
 
 # 3-bit_Flash_ADC:
 
-In this paper, we are going to design a 3 Bit Flash Analog to Digital Converter. As we are taking 3 bit it means that 7 comparators and 8 resistors are required also, the
+We are going to design a 3 Bit Flash Analog to Digital Converter. As we are taking 3 bit it means that 7 comparators and 8 resistors are required also, the
 Priority Encoder which is used for 3-bit Flash ADC is 8 X 3. All the resistors are connected in series with an input voltage to scale down its voltage as voltages are
 distributed among each resistor accordingly by using the voltage divider rule. This resistor network gives voltage reference to the input of comparators respectively .when two
 resistors are connected in series,
